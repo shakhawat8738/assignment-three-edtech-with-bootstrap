@@ -1,7 +1,16 @@
+
+/*....................... .........some custom ..............css .................................*/
+
+
+/* background image for carousel */
+
 .background-image{
     background-image:url(images/cover/cover-1.png);
     height: 500px;
 }
+
+
+/* height */
 .height-width{
     height: 220px;
     
