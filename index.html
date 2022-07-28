@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- css link -->
+
+    <link rel="stylesheet" href="index.css">
     <!-- bootstrap link -->
 
     <link
@@ -16,9 +19,316 @@
 
     <title>Edtech Website with Bootstrap</title>
   </head>
-  <body>
-    <h2>this is shakhawat hossain</h2>
+  <body class="container">
+    <!-- header is starts -->
 
+    <header>
+      <!-- Navbar is here -->
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Pro Edu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Success</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel section is here -->
+      <section>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide mt-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item background-image active">
+              
+                <div class="text-center pt-5 ">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <h1 class="text-white">Get Started Digital <br>
+                    Learning</h1>
+                    <p class="text-white">It is a long established fact that a reader will be distracted <br> by the readable 
+                      content of a page when looking at its layout.</p>
+                      <button class="btn btn-primary">Get started</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+
+
+
+    <!-- main part is started -->
+
+    <main>
+
+      <!-- little description section is here -->
+      <section class="mt-5">
+        <div class="text-center ">
+          <h3 class="fw-bold">Discover Our Popular 
+            <br>
+            Courses</h3>
+            <p class="fw-lighter">it is a long established fact that a reader will be distracted by the readable <br>
+              content of a page when looking at its layout.</p>
+        </div>
+      </section>
+  <!-- model -->
+
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="d-flex">
+    <div class="row g-2">
+      <div class="col-md-4 col-lg-2">
+        <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8 col-lg-4">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="row g-0">
+      <div class="col-md-4 col-lg-2">
+        <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+  <section class="mt-5 mb-5">
+    <div class="d-flex justify-content-around bg-primary rounded-3 height-width align-items-center">
+      <div>
+          <h1 class="text-white">Ready to join</h1>
+          <p class="text-white">it is a long established fact that a reader will be distracted by the <br> 
+            readable content of a page when looking at its layout.</p>
+      </div>
+      <div>
+        <br>
+        <br>
+
+
+
+
+
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-white bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Register Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </section>
+     <!-- accordion section is here -->
+        <section>
+          <!-- accordion description is here -->
+          <div class="text-center">
+            <h3 class="fw-bold">Frequently Asked Questions</h3>
+              <p class="fw-lighter">It is a long established fact that a reader will be distracted by the readable <br>
+                content of a page when looking at its layout.</p>
+          </div>
+         
+          </section>
+
+
+            <section>
+          <!-- .............accordion ...................-->
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 What is differences between flexbox and grid
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is the differences between bootstrap and tailwind
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.Both framework makes user to the users.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 What is css box model
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen. This approach accounts for options such as margins, padding, borders, and all the properties that manipulate them. Each element can be thought of as having its own box.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is semantic tag
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. Examples of semantic elements: <form> , <table> , and <article>.It makes the website more meaningful and a nice structure.
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+
+
+
+
+
+        <section class="mt-5 mb-5">
+          <div class="text-center">
+            <h3>Trusted by over 800+ companies</h3>
+          </div>
+          <div class="d-flex justify-content-around">
+            <div>
+              <img class="img-fluid" src="images/company/company-1.png" alt="">
+            </div>
+            <div>
+              <img class="img-fluid" src="images/company/company-2.png" alt="">
+            </div>
+            <div>
+              <img src="images/company/company-3.png" alt="">
+            </div>
+            <div>
+              <img class="img-fluid" src="images/company/company-4.png" alt="">
+            </div>
+            <div>
+              <img class="img-fluid" src="images/company/company-5.png" alt="">
+            </div>
+            <div>
+              <img class="img-fluid" src="images/company/company-6.png" alt="">
+            </div>
+          </div>
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer is here -->
+   
     <!-- script link is here -->
 
     <script
@@ -26,5 +336,7 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+   
   </body>
+  
 </html>
